@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Branding;
+  src: url("Branding-Medium.woff") format("woff");
+}
+
+div[style*="margin: 16px 0"] {
+  margin: 0 !important;
+}
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+* {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+font-family: Branding, sans-serif;
+font-size: 16px;
+height: 100% !important;
+line-height: 24px;
+mso-line-height-rule: exactly;
+margin: 0 !important;
+padding: 0 !important;
+width: 100% !important;
+}
+
+p,
+div,
+a, {
+  font-size: 16px;
+}
+
+table, td {
+border-collapse: collapse !important;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+img {
+outline: none;
+text-decoration: none;
+-ms-interpolation-mode: bicubic;
+}
+
+a {
+color: #ef7940;
+border-bottom: 1px solid;
+outline: none;
+padding-bottom: 2px;
+text-decoration: none;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+
+.ReadMsgBody, .ExternalClass {
+width: 100%;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+line-height: 100%;
+}
+
+.profile {
+  border-radius: 90px;
+}
+
+.background-image {
+  height: 110px;
+  background-image: url("https://gallery.mailchimp.com/15d19d6510225f577bb853191/images/58d57fd1-979f-4517-bd34-a88daa096859.jpg");
+  background-repeat-y: no-repeat;
+}
+
+ @media all and (min-width: 580px) {
+  .tablediv {
+    display: table;
+  }
+
+  .tablediv__cell {
+    display: table-cell;
+  }
+}
+
+@media only screen and (max-width: 630px), only screen and (max-device-width: 630px) {
+  .widthFull {
+    width: 100% !important;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .widthFull {
+    width: 100% !important;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+}
