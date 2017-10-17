@@ -1,0 +1,71 @@
+
+body {
+  font-family: Branding, sans-serif;
+  font-size: 16px;
+  height: 100% !important;
+  line-height: 24px;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+
+p,
+div,
+a {
+  font-size: 16px;
+}
+
+a {
+  color: #ef7940;
+  border-bottom: 1px solid;
+  outline: none;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+
+h2 {
+  font-size: 18px;
+}
+
+
+.profile {
+  border-radius: 90px;
+}
+
+.ReadMsgBody,
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+
+@media all and (min-width: 580px) {
+  .tablediv {
+    display: table;
+  }
+
+  .tablediv__cell {
+    display: table-cell;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .widthFull {
+    width: 100% !important;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+}
