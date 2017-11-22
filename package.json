@@ -6,7 +6,9 @@
   "scripts": {
     "juice": "juice --css app/css/inline.css dist/index.html dist/index.html",
     "pug": "pug app/templates/*.pug --pretty -w -o dist",
-    "server": "http-server dist"
+    "server": "http-server dist",
+    "start": "npm run pug",
+    "mail": "node scripts/mail.js"
   },
   "author": "",
   "license": "ISC",
