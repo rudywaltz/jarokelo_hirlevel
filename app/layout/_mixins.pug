@@ -1,0 +1,13 @@
+mixin table-start(width = '100%', align = 'center')
+  <!--[if (gte mso 9)|(IE)]>
+  <table width="#{width}" role="presentation"><tr><td align="#{align}">
+  <![endif]-->
+  block
+
+mixin table-end(count = 1)
+  - var n = 0;
+  <!--[if (gte mso 9)|(IE)]>
+  while n < count
+    </td></tr></table>
+    - n++
+  <![endif]-->
