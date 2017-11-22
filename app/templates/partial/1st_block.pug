@@ -1,17 +1,20 @@
-div(style="max-width: 600px; margin: 0 auto; background: #ffffff;")
-  div.tablediv
-    - var data = { "Villamos egyeztetés történt": "A MÁV ingatlankezelési diszpécsere szerint rögzítették a bejelentést a rozsdásodó erősáramú dobozokról, azonban azok lehet, hogy nem hozzájuk tartoznak. Mindenesetre a bejelentésről \"villamos egyeztetés történt\".", "Utcaképekkel mutatjuk meg a kátyúkat": "A Járókelőn ezentúl a kátyús bejelentések oldalán a térkép alatt megmutatjuk a Mapillary utcakép-alkalmazásban található képeket is. Az első járókelős utcaképezésen azonnal találtunk egy    órási kátyút."}
-    each text, title in data
-      div.tablediv__cell(style="padding: 12px 6px 24px 12px;")
-        h2 !{title}
-        p !{text}
-        br
-        a(href="https://jarokelo.hu" style="background-color: #ef7940; font-size: 18px; padding: 9px 15px; color: #fff; border: 0; border-radius: 20px;") Megnézem
-  div.tablediv
-    - var data = {"Utcaképekkel mutatjuk meg a kátyúkat": "A Járókelőn ezentúl a kátyús bejelentések oldalán a térkép alatt megmutatjuk a Mapillary utcakép-alkalmazásban található képeket is. Az első járókelős utcaképezésen azonnal találtunk egy    órási kátyút.", "Villamos egyeztetés történt": "A MÁV ingatlankezelési diszpécsere szerint rögzítették a bejelentést a rozsdásodó erősáramú dobozokról, azonban azok lehet, hogy nem hozzájuk tartoznak. Mindenesetre a bejelentésről \"villamos egyeztetés történt\"."}
-    each text, title in data
-      div.tablediv__cell(style="padding: 12px 6px 24px 12px;")
-        h2 !{title}
-        p !{text}
-        br
-        a(href="https://jarokelo.hu" style="background-color: #ef7940; font-size: 18px; padding: 9px 15px; color: #fff; border: 0; border-radius: 20px;") Megnézem
++table-start
++table-start(580, 'left')
+    div(style="max-width: 600px; margin: 0 auto; background: #ffffff;")
+      div.tablediv
+        - var data = { "Villamos egyeztetés történt": "A MÁV ingatlankezelési diszpécsere szerint rögzítették a bejelentést a rozsdásodó erősáramú dobozokról, azonban azok lehet, hogy nem hozzájuk tartoznak. Mindenesetre a bejelentésről \"villamos egyeztetés történt\".", "Utcaképekkel mutatjuk meg a kátyúkat": "A Járókelőn ezentúl a kátyús bejelentések oldalán a térkép alatt megmutatjuk a Mapillary utcakép-alkalmazásban található képeket is. Az első járókelős utcaképezésen azonnal találtunk egy    órási kátyút."}
+        each text, title in data
+          div.tablediv__cell(style="padding: 12px 6px 24px 12px;")
+            h2 !{title}
+            p !{text}
+            br
+            a(href="https://jarokelo.hu" style="background-color: #ef7940; font-size: 18px; padding: 9px 15px; color: #fff; border: 0; border-radius: 20px;") Megnézem
+      div.tablediv
+        - var data = {"Utcaképekkel mutatjuk meg a kátyúkat": "A Járókelőn ezentúl a kátyús bejelentések oldalán a térkép alatt megmutatjuk a Mapillary utcakép-alkalmazásban található képeket is. Az első járókelős utcaképezésen azonnal találtunk egy    órási kátyút.", "Villamos egyeztetés történt": "A MÁV ingatlankezelési diszpécsere szerint rögzítették a bejelentést a rozsdásodó erősáramú dobozokról, azonban azok lehet, hogy nem hozzájuk tartoznak. Mindenesetre a bejelentésről \"villamos egyeztetés történt\"."}
+        each text, title in data
+          div.tablediv__cell(style="padding: 12px 6px 24px 12px;")
+            h2 !{title}
+            p !{text}
+            br
+            a(href="https://jarokelo.hu" style="background-color: #ef7940; font-size: 18px; padding: 9px 15px; color: #fff; border: 0; border-radius: 20px;") Megnézem
++table-end(2)

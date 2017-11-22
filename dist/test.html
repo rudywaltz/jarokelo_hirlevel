@@ -64,6 +64,12 @@ text-decoration: none;
 
     </style>
     <style type="text/css">
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Branding, sans-serif;
   font-size: 16px;
@@ -123,6 +129,18 @@ h2 {
     display: table-cell;
   }
 }
+
+@media all and (min-width: 631px) {
+  .padding {
+    padding-bottom: 20px;
+  }
+
+  .submit_button {
+    font-size: 20px;
+  }
+}
+
+
 
 @media only screen and (max-width: 630px) {
   .widthFull {

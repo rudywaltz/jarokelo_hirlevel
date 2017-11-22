@@ -1,21 +1,21 @@
 extends ../layout/layout
 block content
   //- <!--[if (gte mso 9)|(IE)]><table width="100%" role="presentation"><tr><td align="center" bgcolor="#f5f5f5" style="padding-top: 20px; padding-bottom: 50px;"><![endif]-->
-  include partial/header
-  br
+  div.padding
+    include partial/header
   include partial/hero
   //- <!--[if (gte mso 9)|(IE)]><table width="600" align="center" role="presentation"><tr><td align="left" valign="top"><![endif]-->
   div(style="background-image: url(https://gallery.mailchimp.com/15d19d6510225f577bb853191/images/87076ec0-9837-4839-9f5e-8ff295f721e5.jpg); background-position: center bottom; background-repeat: repeat no-repeat;")
     include partial/1st_block
-    //- include partial/submit
+    include partial/submit
     br
     br
     br
-    //- <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
-  //- include partial/promoter
-  //- include partial/small_reports
-  //- include partial/footer
+    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+  include partial/promoter
+  include partial/small_reports
+  include partial/footer
 
-  //- div(style="background-color: #444444;")
-    //- div(style="max-width: 580px; padding: 10px 10px 30px; margin: 0 auto; color: #ffffff")
+  div(style="background-color: #444444;")
+    div(style="max-width: 580px; padding: 10px 10px 30px; margin: 0 auto; color: #ffffff")
   //- <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
